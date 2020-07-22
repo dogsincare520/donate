@@ -1,0 +1,71 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,800);
+@import "bootstrap.min.css";
+
+#header{
+  width:100%;
+  color:#d18915;
+	background:#87C78D;
+   z-index:1000;
+}
+
+body{
+  background-color:#22A8B2 !important;
+}
+
+.icon-bar {
+   background-color:#000 !important;
+}
+.bg-orange{
+  background-color: #d18915;
+}
+#myNavbar{
+  
+  width:100%;
+	background-color: #22A8B2;
+  font-size:20px;
+  font-family:DFKai-sb;
+  font-weight:600;
+  min-height: 0px; 
+}
+
+ #myNavbar .active {
+   background-color:#FF9100;
+   border:solid 1px orange;
+   font-weight:900;
+}
+
+#myNavbar a:hover{
+  background-color:#FF9100;
+  transition: background-color 0.4s;
+}
+
+ .navbar-brand,.navbar-nav li a {
+    height:40px;
+   }
+#myNavbar a{
+	color:#000000;
+}
+
+#myNavbar.menu5{
+  margin-top:-15px;
+}
+
+
+#youtube{
+  width:80px;
+}
+
+#img2{
+  margin-top:-10px;
+}
+
+.April{
+  background:#F8FF9C;
+  padding-top:16%;
+  padding-left:5%;
+  margin-left:20px;
+  margin-right:20px;
+
+ 
+}
+
