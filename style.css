@@ -39,6 +39,12 @@ body :target:before{
 
 body{
   background-color:#87C78D !important;
+  font-family: 'Lato', Calibri, Arial, sans-serif; 
+  font-weight: 800; 
+  color:#212121;
+  overflow: scroll;
+  overflow-x: hidden;
+  position:relative;
 }
 
 .icon-bar {
@@ -50,7 +56,7 @@ body{
 #myNavbar{
   
   width:100%;
-	background-color: #22A8B2;
+  background-color: #22A8B2;
   font-size:20px;
   font-family:DFKai-sb;
   font-weight:600;
@@ -79,6 +85,15 @@ body{
   margin-top:-15px;
 }
 
+.navbar-center {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar-collapse-center {
+  text-align: center;
+}
 
 #youtube{
   width:80px;
