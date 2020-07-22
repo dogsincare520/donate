@@ -38,7 +38,7 @@ body :target:before{
 }
 
 body{
-  background-color:#22A8B2 !important;
+  background-color:#87C78D !important;
 }
 
 .icon-bar {
@@ -58,8 +58,8 @@ body{
 }
 
  #myNavbar .active {
-   background-color:#FF9100;
-   border:solid 1px orange;
+   #background-color:#FF9100;
+   #border:solid 1px orange;
    font-weight:900;
 }
 
@@ -87,7 +87,6 @@ body{
 #img2{
   margin-top:-10px;
 }
-
 #img1{
   margin-top:-18px;
   height:50px;
@@ -95,11 +94,10 @@ body{
 
 .April{
   background:#F8FF9C;
-  padding-top:16%;
+  padding-top:5%;
   padding-left:5%;
   margin-left:20px;
   margin-right:20px;
 
  
 }
-
