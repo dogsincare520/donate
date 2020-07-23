@@ -58,8 +58,9 @@
 			
     <div class="nav navbar-light bg-orange " id="myNavbar">
                 <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">-->
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
-                    <span class="icon-bar"></span>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#Navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>  
+                  <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span> 
                 </button>
@@ -70,10 +71,9 @@
                     <li><a class="nav-link " page-scroll data-toggle="tab" href="#home">贊助帳號</a></li>
                    <!-- <li><a class="nav-link  page-scroll" href="#menu1">109年4月愛心贊助明細</a></li>  -->
                   <li class="dropdown">
-                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">愛心贊助明細
-                            <span class="caret"></span></a>
+                      <a class="dropdown-toggle"  data-toggle="dropdown" href="#">愛心贊助明細<span class="caret"></span></a>
                             <ul class="dropdown-menu">
- 			      <li><a data-toggle="tab" href="#money"><div class="month">三倍劵贊助</div></a></li>
+                              <li><a data-toggle="tab" href="#money"><div class="month">三倍劵贊助</div></a></li>
                               <li><a data-toggle="tab" href="#a10905"><div class="month">109年5月</div></a></li>
                               <li><a data-toggle="tab" href="#a10904"><div class="month">109年4月</div></a></li>
                               <li><a data-toggle="tab" href="#a10903"><div class="month">109年3月</div></a></li>
@@ -97,7 +97,9 @@
 		<img src="https://i.postimg.cc/KjGvYfGz/3.jpg"  width="53%" alt="dog3">
 		<img src="https://i.postimg.cc/YqSCKdDD/4.jpg"  width="53%" alt="dog4">	
 		<img src="https://i.postimg.cc/Y93MTF6w/5.jpg" width="53%" alt="dog5"> -->
-  <!--圖片輪播-->
+
+  
+ <!--圖片輪播-->
  <div id="myCarousel" class="carousel slide">
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"> </li>
@@ -127,13 +129,14 @@
 		</div>
 	
 		<a href="#myCarousel" data-slide="prev" class="carousel-control left">
-			<!-- <span class="glyphicon glyphicon-chevron-left"> </span> -->
+			<!--<span class="glyphicon glyphicon-chevron-left"> </span> -->
 		</a>
 		<a href="#myCarousel" data-slide="next" class="carousel-control right">
-			<!-- <span class="glyphicon glyphicon-chevron-right"> </span> -->
+			<!--<span class="glyphicon glyphicon-chevron-right"> </span>-->
 		</a>
 	</div>
   <!--圖片輪播-->
+ <div class="tab-content">  
    
 <div id="home"  class="tab-pane fade in active">
   <div class="space">
@@ -147,7 +150,7 @@ Dogs In Care 嘉義王媽媽狗園專戶<br>
 戶名: 鄭玉筠<br>
 <br>
 帳號: 50168-205-945<br>
-<br>                    _____________________<br>
+<br>        _____________________<br>
 <br>
 嘉義彌陀郵局(中華郵政代碼700)<br>
 <br>
@@ -312,18 +315,6 @@ H 至動物醫院<br>
       今當遠離，臨表涕泣，不知所云。</p>
      </div>
    </div>
-  
-
  
-
-
-
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1./jquery.min.js'></script>
-<script src='https://framp.me/portfolio/js/jquerypp.custom.js'></script>
-<script src='https://framp.me/portfolio/js/jquery.bookblock.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
-
+  
 </body>
-</html>

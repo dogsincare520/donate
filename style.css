@@ -44,7 +44,7 @@ body :target:before{
   margin-right:20px;
   padding-bottom:10px;
   margin-bottom:10px;
-  margin-top:3%;  
+  margin-top:3%;
 }
 /*.account :before{
   content:'';
@@ -133,7 +133,7 @@ body{
 
 .April{
   background:#F8FF9C;
-  padding-top:5%;
+  padding-top:5%;  
   padding-left:5%;
   margin-left:20px;
   margin-right:20px;
@@ -163,8 +163,8 @@ body{
 
 @media (max-width: 430px) { 
   body{
-    font-size: 35%;
-  }*/
+    font-size: 35%; 
+  }   */
 
 /*圖片輪播頭*/
 #myCarousel {  
@@ -181,7 +181,3 @@ body{
 	
 }
 /*圖片輪播尾*/
-
-
-
-
