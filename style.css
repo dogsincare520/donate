@@ -1,13 +1,35 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,800);
 @import "bootstrap.min.css";
 
-
 body :target:before{
   display: block;
   content: "";
   height: 160px;
   margin: -160px 0 0;
 }
+
+.month{
+  #background-color: #00E3E3;
+  text-align:center;
+  font-family: 'Lato', Calibri, Arial, sans-serif; 
+  font-weight: 800; 
+  color:#212121;
+  
+}
+
+.bg-orange .dropdown-menu{
+    background-color: #00E3E3;
+}
+
+.bg-orange .dropdown-item:hover{
+    background-color: #3C70EF;
+}
+
+.bg-orange{
+  background-color: #3C70EF;  
+}
+
+
 
 .top{
   margin-bottom:6%;
@@ -32,9 +54,9 @@ body :target:before{
 }*/
 #header{
   width:100%;
-  color:#d18915;
+  color:#87C78D;
 	background:#87C78D;
-   z-index:1000;
+  z-index:1000;
 }
 
 body{
@@ -45,18 +67,17 @@ body{
   overflow: scroll;
   overflow-x: hidden;
   position:relative;
+    
 }
 
 .icon-bar {
    background-color:#000 !important;
 }
-.bg-orange{
-  background-color: #d18915;
-}
-#myNavbar{
-  
+
+#myNavbar{  
   width:100%;
-  background-color: #22A8B2;
+	background-color: #22A8B2;
+  padding-bottom:2px;
   font-size:20px;
   font-family:DFKai-sb;
   font-weight:600;
@@ -64,7 +85,7 @@ body{
 }
 
  #myNavbar .active {
-   #background-color:#FF9100;
+   background-color:#FF9100;
    #border:solid 1px orange;
    font-weight:900;
 }
@@ -79,6 +100,9 @@ body{
    }
 #myNavbar a{
 	color:#000000;
+  #margin-bottom:-1px;
+  #margin-right:-1px;
+  background-color:#22A8B2;
 }
 
 #myNavbar.menu5{
@@ -94,7 +118,6 @@ body{
 .navbar-collapse-center {
   text-align: center;
 }
-
 #youtube{
   width:80px;
 }
@@ -113,8 +136,15 @@ body{
   padding-left:5%;
   margin-left:20px;
   margin-right:20px;
+}
 
- 
+#a10904{
+  background:#F8FF9C;
+  padding-top:5%;
+  padding-left:5%;
+  margin-left:20px;
+  margin-right:20px;
+  
 }
 
 .slider_container {
@@ -253,3 +283,8 @@ body{
   margin: 0;
   box-sizing: border-box;
 }
+
+
+
+
+
