@@ -17,3 +17,9 @@ $('.navbar-nav li a').on('click', function(){
         $('.navbar-collapse').collapse('hide');
     }
 });
+
+/*圖片輪播*/
+
+$("#myCarousel").carousel({
+			interval :3000,
+		});
