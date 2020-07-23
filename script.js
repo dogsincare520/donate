@@ -4,6 +4,13 @@ $("#gotop").click(function(){
         scrollTop:0
     },1000);
 });
+
+/*圖片輪播*/
+
+$("#myCarousel").carousel({
+			interval :3000,
+		});
+
 $(window).scroll(function() {
     if ( $(this).scrollTop() > 300){
         $('#gotop').fadeIn("fast");
@@ -18,8 +25,3 @@ $('.navbar-nav li a').on('click', function(){
     }
 });
 
-/*圖片輪播*/
-
-$("#myCarousel").carousel({
-			interval :3000,
-		});
