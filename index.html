@@ -97,27 +97,41 @@
 		<img src="https://i.postimg.cc/KjGvYfGz/3.jpg"  width="53%" alt="dog3">
 		<img src="https://i.postimg.cc/YqSCKdDD/4.jpg"  width="53%" alt="dog4">	
 		<img src="https://i.postimg.cc/Y93MTF6w/5.jpg" width="53%" alt="dog5"> -->
-<div class="rwd_slider_container_wrapper">
-  <div class="rwd_slider_container">
-    <div class="slider_container" >
-      <div>
-        <img src="https://i.postimg.cc/pX0ypwnt/1.jpg" alt="pure css slider" width="400" height="280" />
-      </div>
-      <div>
-        <img src="https://i.postimg.cc/cJ3Jk6ks/2.jpg" alt="pure css slider" width="400" height="280" />
-      </div>
-      <div>
-        <img src="https://i.postimg.cc/KjGvYfGz/3.jpg" alt="pure css slider" width="400" height="280" />
-      </div>
-      <div>
-        <img src="https://i.postimg.cc/YqSCKdDD/4.jpg" alt="pure css slider" width="400" height="280" />
-      </div>
-      <div>
-        <img src="https://i.postimg.cc/Y93MTF6w/5.jpg" alt="pure css slider" width="400" height="280" />
-      </div>
-    </div><!-- end of .pure_slider_container -->
-  </div><!-- end of .embed-responsive -->
-</div><!-- end of .embed-responsive-box -->
+<div id="myCarousel" class="carousel slide">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"> </li>
+			<li data-target="#myCarousel" data-slide-to="1"> </li>
+			<li data-target="#myCarousel" data-slide-to="2"> </li>
+      <li data-target="#myCarousel" data-slide-to="3"> </li>
+      <li data-target="#myCarousel" data-slide-to="4"> </li>
+			
+		</ol> 
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="https://i.postimg.cc/pX0ypwnt/1.jpg" width="40%" alt="第一張" />
+			</div>
+			<div class="item" >
+				<img src="https://i.postimg.cc/cJ3Jk6ks/2.jpg" width="40%" alt="第二張" />
+			</div>
+			<div class="item">
+				<img src="https://i.postimg.cc/KjGvYfGz/3.jpg" width="40%" alt="第三張" />
+			</div>
+      <div class="item">
+				<img src="https://i.postimg.cc/YqSCKdDD/4.jpg" width="40%" alt="第四張" />
+			</div>
+      <div class="item">
+				<img src="https://i.postimg.cc/Y93MTF6w/5.jpg" width="40%" alt="第五張" />
+			</div>
+		
+		</div>
+	
+		<a href="#myCarousel" data-slide="prev" class="carousel-control left">
+			<!--<span class="glyphicon glyphicon-chevron-left"> </span>-->
+		</a>
+		<a href="#myCarousel" data-slide="next" class="carousel-control right">
+			<!--<span class="glyphicon glyphicon-chevron-right"> </span>-->
+		</a>
+	</div>
  <div class="tab-content">  
    
 <div id="home"  class="tab-pane fade in active">

@@ -17,3 +17,7 @@ $('.navbar-nav li a').on('click', function(){
         $('.navbar-collapse').collapse('hide');
     }
 });
+
+$("#myCarousel").carousel({
+			interval :3000,
+		});
