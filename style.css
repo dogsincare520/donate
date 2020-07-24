@@ -63,7 +63,7 @@ body :target:before{
 body{
   background-color:#87C78D !important;
   font-family: 'Lato', Calibri, Arial, sans-serif; 
-  font-weight: 800; 
+  font-weight: 500; 
   color:#212121;
   overflow: scroll;
   overflow-x: hidden;
