@@ -12,11 +12,11 @@ body{
 }
 .detail{
   background:#F8FF9C;
-  margin-top:2%;
-  padding-top:2%;
-  padding-left:5%;
-  margin-left:20px;
-  margin-right:20px;
+  #margin-top:2%;
+  #padding-top:2%;
+  #padding-left:5%;
+  #margin-left:20px;
+  #margin-right:20px;
 }
 .donate_photo{
   text-align:center;
