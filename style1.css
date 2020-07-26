@@ -1,0 +1,46 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,800);
+@import "bootstrap.min.css";
+body{
+  #background-color:#87C78D !important;
+  font-family: 'Lato', Calibri, Arial, sans-serif; 
+  font-weight: 500; 
+  color:#212121;
+  overflow: scroll;
+  overflow-x: hidden;
+  position:relative;
+    
+}
+.detail{
+  background:#F8FF9C;
+  margin-top:2%;
+  padding-top:2%;
+  padding-left:5%;
+  margin-left:20px;
+  margin-right:20px;
+}
+.donate_photo{
+  text-align:center;
+  margin-left:5%;
+  margin-right:10%;
+  
+}
+
+img{
+    max-width:100%; /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/
+    height:auto;
+}
+
+
+@media screen and (max-width: 640px) {
+  .item img{
+    width:100%; /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/
+    height:auto;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .item img{
+    width:40%; /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/    
+  }
+}
+
