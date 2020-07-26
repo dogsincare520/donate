@@ -10,6 +10,19 @@ body{
   position:relative;
     
 }
+
+.account{
+  background:#F8FF9C;
+  text-align:center;
+  padding-left:5%;
+  padding-top:3%;
+  margin-left:20px;
+  margin-right:20px;
+  padding-bottom:10px;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
 .detail{
   background:#F8FF9C;
   #margin-top:2%;
