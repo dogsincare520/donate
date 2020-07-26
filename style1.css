@@ -1,7 +1,7 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,800);
 @import "bootstrap.min.css";
 body{
-  #background-color:#87C78D !important;
+  background-color:#87C78D !important;
   font-family: 'Lato', Calibri, Arial, sans-serif; 
   font-weight: 500; 
   color:#212121;
