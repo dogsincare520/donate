@@ -3,14 +3,14 @@
 a,a:link,a:visited{
   color:#212121;
   text-decoration: none;
-  font-family: 'Lato', Calibri, Arial, sans-serif; 
+  font-family:"Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
   font-weight: 700; 
 }
 a:hover{
   color:#F4AB25;
   background-color:#FFECD9;
   text-decoration: none;
-  font-family: 'Lato', Calibri, Arial, sans-serif; 
+  font-family:"Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif; 
   font-weight: 700; 
 }
 
