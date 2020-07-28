@@ -11,7 +11,7 @@ body :target:before{
 .month{
   #background-color: #00E3E3;
   text-align:center;
-  font-family: 'Lato', Calibri, Arial, sans-serif; 
+  font-family:"Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;;
   font-weight: 800; 
   color:#212121;
   
@@ -62,7 +62,7 @@ body :target:before{
 
 body{
   background-color:#87C78D !important;
-  font-family: 'Lato', Calibri, Arial, sans-serif; 
+  font-family:"Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;;
   font-weight: 500; 
   color:#212121;
   overflow: scroll;
@@ -80,7 +80,7 @@ body{
 	background-color: #22A8B2;
   padding-bottom:2px;
   font-size:20px;
-  font-family:DFKai-sb;
+  font-family:"Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;;
   font-weight:600;
   min-height: 0px; 
 }
@@ -100,7 +100,9 @@ body{
     height:40px;
    }
 #myNavbar a{
-	color:#000000;
+  color:#003D79 !important;
+  #-webkit-text-stroke: 1px #005757;
+  font-weight:900 !important;
   #margin-bottom:-1px;
   #margin-right:-1px;
   background-color:#22A8B2;
