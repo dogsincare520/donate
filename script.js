@@ -33,3 +33,18 @@ $(function(){
     $('html,body').scrollTop(scrollmem);
   });
 });
+
+$(function(){
+var device = $(window).width() >640 ? "desktop" : "mobile";
+$("img").each(function() {
+$(this).attr("src", $(this).data(device));
+});
+//改變尺寸
+$(window).resize(function()
+{
+var device = $(window).width() > 640 ? "desktop" : "mobile";
+$("img").each(function() {
+$(this).attr("src", $(this).data(device));
+});
+});
+});
