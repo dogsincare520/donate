@@ -195,6 +195,10 @@ img{
     margin-bottom:-3%;
     margin-top:-3%;
   }
+  
+  .donate_month{   
+    margin-top:5%;
+  }
 }
 
 @media screen and (min-width: 640px) {
