@@ -41,7 +41,7 @@ $(function(){
   });
 });
 
-$(function(){
+/*$(function(){
 var device = $(window).width() >640 ? "desktop" : "mobile";
 $("img").each(function() {
 $(this).attr("src", $(this).data(device));
@@ -54,4 +54,4 @@ $("img").each(function() {
 $(this).attr("src", $(this).data(device));
 });
 });
-});
+}); */
