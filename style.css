@@ -262,12 +262,12 @@ img{
     height:auto;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 500px) {
   .item img{
     width:100%; /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/
     height:auto;
   }
-
+  
   .logo{
     margin-bottom:-3%;
     margin-top:-3%;
@@ -276,31 +276,90 @@ img{
   .donate_month{   
     margin-top:10%;
   }
- .dots-loader{
+  
+  .dots-loader{
     margin-top:300px;
   }
-
+  
+  .account_title{
+  font-size:110%;
+  font-weight:900;
+  color:#EA0000;
+  margin-bottom:15px;
+  }
+  
+  .bank_name{
+   font-size:95%;
+   font-weight:800;
+   color:#000079; 
+    
+  }
+  .account_number{
+    font-size:120%;
+    font-weight:800;
+    color:#613030;
+  }
+  
+  .account_number1{
+    color:#613030;
+  }
+  
+  .account_name{
+  font-size:120%;
+  font-weight:900;
+  color:#28004D;    
+  }
+  
+  .account_notice{
+  font-size:200%;
+  font-weight:bold;
+  color:#FF0000;
+  }  
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 500px) {
   .item img{
     width:40%; /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/    
-  }
-
- .dots-loader{
+  } 
+  
+  .dots-loader{
     margin-top:25%;
   }
-}
-
-.donate_title{
-  text-align:center;
-  margin-left:-5%;
-  font-size:200%;
-  font-family: 'Lato', Calibri, Arial, sans-serif; 
-  font-weight: 700; 
-  color:#212121;
   
+  .account_title{
+  font-size:175%;
+  font-weight:900;
+  color:#EA0000;
+  margin-bottom:15px;
+  }
   
+  .bank_name{
+   font-size:150%;
+   font-weight:800;
+   color:#000079; 
+    
+  }
+  .account_number{
+    font-size:175%;
+    font-weight:800;
+    color:#613030;
+  }
+  
+  .account_number1{
+    color:#613030;
+  }
+  
+  .account_name{
+  font-size:175%;
+  font-weight:900;
+  color:#28004D;    
+  }
+  
+  .account_notice{
+  font-size:250%;
+  font-weight:bold;
+  color:#FF0000;
+  }  
 }
 
 .donate_date{
