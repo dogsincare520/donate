@@ -362,6 +362,15 @@ img{
   }  
 }
 
+.donate_title{
+  text-align:center;
+  margin-left:-5%;
+  font-size:200%;
+  font-family: 'Lato', Calibri, Arial, sans-serif; 
+  font-weight: 700; 
+  color:#212121;  
+}
+
 .donate_date{
   text-align:right;
   margin-right:5%;
