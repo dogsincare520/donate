@@ -58,18 +58,39 @@ body{
   text-align:center;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 500px) {
   .content{
     font-size:110%;
   }
   .address{
    font-size:70%;	
   }
-}
-
-@media screen and (min-width: 640px) {
-  .content{
-    font-size:150%;
+  
+.item img{
+    width:100%; /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/
+    height:auto;
   }
 }
 
+@media screen and (min-width:500px) {
+  .content{
+    font-size:150%;
+  }
+.item img{
+    width:40%; /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/    
+  } 
+}
+
+#myCarousel {
+	margin: 50px 0 0 0;
+}
+#navbar-collapse ul {
+	margin-top:0;
+}
+.carousel-inner img{
+	margin: 0 auto;
+}
+.carousel-control{
+	font-size: 100px;
+	
+}
