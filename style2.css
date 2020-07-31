@@ -70,6 +70,12 @@ body{
     width:100%; /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/
     height:auto;
   }
+
+  .story_content{  
+   padding-left:5%;
+   font-size:90%; 
+}
+
 }
 
 @media screen and (min-width:500px) {
@@ -78,7 +84,11 @@ body{
   }
 .item img{
     width:40%; /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/    
-  } 
+  }
+
+ .story_content{  
+   padding-left:30%;
+ } 
 }
 
 #myCarousel {
@@ -94,3 +104,49 @@ body{
 	font-size: 100px;
 	
 }
+
+.rescue_title{
+  text-align:center;
+  font-size:150%;
+  font-weight:bold;
+  color:blue;
+}
+
+.story_content{  
+  border:1px solid #FF3030;
+}
+
+.rescue_story a,a:link,a:visited{
+  color:#212121;
+  text-decoration: none;
+  font-family: 'Lato', Calibri, Arial, sans-serif; 
+  font-weight: 700; 
+}
+.rescue_story a:hover{
+  color:#F4AB25;
+  background-color:#FFECD9;
+  text-decoration: none;
+  font-family: 'Lato', Calibri, Arial, sans-serif; 
+  font-weight: 700; 
+}
+
+.help_them{
+  margin-top:5%;
+  text-align:center;
+  
+}
+
+.help_them_title{
+  text-align:center;
+  font-size:250%;
+  font-weight:bold;
+  color:red;
+}
+
+#img1{
+  margin-top:-2%; 
+}
+
+
+
+
