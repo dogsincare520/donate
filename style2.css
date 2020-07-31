@@ -71,9 +71,12 @@ body{
     height:auto;
   }
 
-  .story_content{  
-   padding-left:5%;
-   font-size:90%; 
+  .story_content{
+   margin-left:1%;
+   margin-right:1%; 
+   padding-left:1%;
+   padding-right:1%;
+   font-size:80%; 
 }
 
 }
@@ -86,9 +89,11 @@ body{
     width:40%; /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/    
   }
 
- .story_content{  
-   padding-left:30%;
- } 
+ .story_content{
+   margin-left:10%;
+   margin-right:10%;
+   padding-left:20%;
+ }
 }
 
 #myCarousel {
@@ -143,9 +148,6 @@ body{
   color:red;
 }
 
-#img1{
-  margin-top:-2%; 
-}
 
 
 
