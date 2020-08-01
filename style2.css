@@ -118,7 +118,7 @@ body{
 }
 
 .story_content{  
-  border:1px solid #FF3030;
+  border:3px solid #FF3030;
 }
 
 .rescue_story a,a:link,a:visited{
@@ -152,6 +152,10 @@ body{
   max-width:50%;
 }
 
+.dog_name{
+  color:#FF8000;
+  font-weight:900;
+}
 
 
 
