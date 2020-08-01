@@ -273,7 +273,14 @@ img{
 }
 
 @media screen and (max-width: 500px) {
-  .item img{
+  
+ #myNavbar a{
+    margin-left:20%;
+    width:100%;
+  }
+
+
+.item img{
     width:100%; /*不使用width:100% 是因避免圖片解析度不好，隨父元素被放大時會糊掉*/
     height:auto;
   }
