@@ -219,7 +219,16 @@ body{
   margin-right:20px;
 }
 
-#a10904{
+.month_setting{
+  background:#F8FF9C;
+  padding-top:5%;
+  padding-left:5%;
+  margin-left:20px;
+  margin-right:20px;
+  
+}
+
+/*#a10904{
   background:#F8FF9C;
   padding-top:5%;
   padding-left:5%;
@@ -236,6 +245,7 @@ body{
   margin-right:20px;
   
 }
+*/
 
 #myCarousel {
 	margin: 50px 0 0 0;
