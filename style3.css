@@ -1,0 +1,19 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,800);
+@import "bootstrap.min.css";
+.city{
+  font-weight:900;
+  font-size:150%;
+  color:#000093;
+}
+
+body{
+  background-color:#F8FF9C !important;
+  font-family:"Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif; 
+  font-weight: 500; 
+  color:#212121;
+  overflow: scroll;
+  overflow-x: hidden;
+  position:relative;    
+}
+
+
