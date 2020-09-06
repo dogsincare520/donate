@@ -1,5 +1,11 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,800);
 @import "bootstrap.min.css";
+.notice{
+  color:red;
+  font-weight:700;
+  font-size:120%;
+}
+
 .city{
   font-weight:900;
   font-size:150%;
