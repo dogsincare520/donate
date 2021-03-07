@@ -11,6 +11,11 @@ body{
     
 }
 
+.important{
+ color:	#0000E3;
+ font-weight:800;
+
+}
 .account{
   background:#F8FF9C;
   text-align:center;
