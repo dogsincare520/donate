@@ -54,6 +54,13 @@
  </style>
 
 <script>
+  $(function() {
+    $('[data-submenu]').submenupicker();
+  });
+</script>
+	
+	
+<script>
  $(function(){
 var device = $(window).width() >640 ? "desktop" : "mobile";
 $("img").each(function() {
@@ -97,7 +104,7 @@ $(this).attr("src", $(this).data(device));
                     <li><a class="nav-link  page-scroll " data-toggle="tab" href="#rescue_story">救援故事</a></li>
                    
                     <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-submenu>愛心贊助明細
+                      <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-submenu href="#">愛心贊助明細
                             <span class="caret"></span></a>
                             <ul class="dropdown-menu">
 			      <li><a data-toggle="tab" href="#a11004"><div class="month"><span class="new">110年4月</span></div></a></li>
@@ -412,25 +419,7 @@ _____________________<br>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' defer></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js" defer></script>
 	
-<script>
-  $(function() {
-    $('[data-submenu]').submenupicker();
-  });
-</script>
 
-<script>	
-	(function($){
-    $(document).ready(function(){
-        $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
-            event.preventDefault();
-            event.stopPropagation();
-            $(this).parent().siblings().removeClass('open');
-            $(this).parent().toggleClass('open');
-        });
-    });
-})(jQuery);
-	</script>
-	
 <script>
 function getid()
 {
