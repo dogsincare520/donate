@@ -1,419 +1,443 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Dogs In Care 嘉義王媽媽狗園</title>
-  <link rel="stylesheet" href="./style.css"> 
-<!-- 新 Bootstrap 核心 CSS 文件 -->
-<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
- 
-<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Dogs In Care 嘉義王媽媽狗園</title>
+        <link rel="stylesheet" href="./style.css" />
+        <!-- 新 Bootstrap 核心 CSS 文件 -->
+        <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+        <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="js/jquerypp.custom.js"></script>
-  <script src="js/jquery.bookblock.js"></script>
-  <script src="js/portfolio.js"></script>
-  <script src="./bootstrap.min.js"></script>
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
-  
-  <link rel="icon" href="https://dogsincare520.github.io/donate/favicon.png" type="image/png" />
-  <link rel="Bookmark" href="https://dogsincare520.github.io/donate/favicon.png" type="image/png" />
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
- 
-   
+        <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+        <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-</head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/jquerypp.custom.js"></script>
+        <script src="js/jquery.bookblock.js"></script>
+        <script src="js/portfolio.js"></script>
+        <script src="./bootstrap.min.js"></script>
 
-<style>
-       body{ 
-           position:relative;
-       }
-  
-  .navbar-center {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
 
-.navbar-collapse-center {
-  text-align: center;
-}
- </style>
+        <link rel="icon" href="https://dogsincare520.github.io/donate/favicon.png" type="image/png" />
+        <link rel="Bookmark" href="https://dogsincare520.github.io/donate/favicon.png" type="image/png" />
+    </head>
+    <body>
+        <!-- partial:index.partial.html -->
+        <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+        </head>
 
-<script>
- $(function(){
-var device = $(window).width() >640 ? "desktop" : "mobile";
-$("img").each(function() {
-$(this).attr("src", $(this).data(device));
-});
-//改變尺寸
-$(window).resize(function()
-{
-var device = $(window).width() > 640 ? "desktop" : "mobile";
-$("img").each(function() {
-$(this).attr("src", $(this).data(device));
-});
-});
-});
-</script>
+        <style>
+            body {
+                position: relative;
+            }
 
+            .navbar-center {
+                display: inline-block;
+                float: none;
+                vertical-align: top;
+            }
 
-<body class="loading" onload="getid()" data-target="#myNavbar" data-spy="scroll" >
-<!--<body class="loading" data-target="#myNavbar" data-spy="scroll" >-->
-<div class="dots-loader"></div>
-  
+            .navbar-collapse-center {
+                text-align: center;
+            }
+        </style>
 
+        <script>
+            $(function () {
+                var device = $(window).width() > 640 ? "desktop" : "mobile";
+                $("img").each(function () {
+                    $(this).attr("src", $(this).data(device));
+                });
+                //改變尺寸
+                $(window).resize(function () {
+                    var device = $(window).width() > 640 ? "desktop" : "mobile";
+                    $("img").each(function () {
+                        $(this).attr("src", $(this).data(device));
+                    });
+                });
+            });
+        </script>
 
- <header id="header" class="navbar-fixed-top">			
-  <div class="logo">
-     <a href="https://dogsincare520.github.io/donate/"><img src="https://i.postimg.cc/8CPPmtQV/banner2.png" data-mobile="https://i.postimg.cc/s2m5QhFw/banner-mobile.png" data-desktop="https://i.postimg.cc/8CPPmtQV/banner2.png"width="100%" alt="logo" >
-  </a></div>   
-			
-    <div class="nav navbar-light bg-orange " id="myNavbar">
-                <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">-->
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span> 
-                </button>
-               
-          
-            <div class="collapse navbar-collapse navbar-collapse-center" id="Navbar">
-                <ul class="nav navbar-nav navbar-center">
-                    <li><a class="nav-link " page-scroll data-toggle="tab" href="#home">幫助狗園</a></li>
-                    <li><a class="nav-link  page-scroll " data-toggle="tab" href="#about_us">關於狗園</a></li>
-                    <li><a class="nav-link  page-scroll " data-toggle="tab" href="#rescue_story">救援故事</a></li>
-                   <!-- <li><a class="nav-link  page-scroll" href="#menu1">109年4月愛心贊助明細</a></li>  -->
-                    <li class="dropdown">
-                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">愛心贊助明細
-                            <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-			      <li><a data-toggle="tab" href="#a11004"><div class="month"><span class="new">110年4月</span></div></a></li>
-                              <li><a data-toggle="tab" href="#a11003"><div class="month"><span class="new">110年3月</span></div></a></li>
-			      <li><a data-toggle="tab" href="#a11002"><div class="month">110年2月</div></a></li>
-                              <li><a data-toggle="tab" href="#a11001"><div class="month">110年1月</div></a></li>
-			      <li><a data-toggle="tab" href="#a10912"><div class="month">109年12月</div></a></li>
-                              <li><a data-toggle="tab" href="#a10911"><div class="month">109年11月</div></a></li>
-                              <li><a data-toggle="tab" href="#a10910"><div class="month">109年10月</div></a></li>
-                              <li><a data-toggle="tab" href="#a10909"><div class="month">109年9月</div></a></li>
- 			      <li><a data-toggle="tab" href="#a3000"><div class="month">三倍劵贊助</div></a></li>
-			      <li><a data-toggle="tab" href="#a10908"><div class="month">109年8月</div></a></li>
-                              <li><a data-toggle="tab" href="#a10907"><div class="month">109年7月</div></a></li>
-                              <li><a data-toggle="tab" href="#a10906"><div class="month">109年6月</div></a></li>
-                              <li><a data-toggle="tab" href="#a10905"><div class="month">109年5月</div></a></li>
-                              <li><a data-toggle="tab" href="#a10904"><div class="month">109年4月</div></a></li>
-                              <li><a data-toggle="tab" href="#a10903"><div class="month">109年3月</div></a></li>
-                              <li><a data-toggle="tab" href="#a10902"><div class="month">109年2月</div></a></li>
-                              <li><a data-toggle="tab" href="#a10901"><div class="month">109年1月</div></a></li>
-                   </ul>
-                  </li>
- <li><a class="nav-link  page-scroll " data-toggle="tab" href="#news">相關報導</a></li>
-                   
-                  <li><a href="https://p.ecpay.com.tw/9F5D5/"><img src="https://i.postimg.cc/fLJnJdcZ/logo300x180.png" id="img1"></a></li>
-                  <li><a href="https://www.facebook.com/wamamadogs/"><img src="https://i.postimg.cc/ZKqVJ0nJ/Facebook-logo1.png" width="100px" id="img2"></a></li>
-                </ul>
+        <body class="loading" onload="getid()" data-target="#myNavbar" data-spy="scroll">
+            <!--<body class="loading" data-target="#myNavbar" data-spy="scroll" >-->
+            <div class="dots-loader"></div>
+
+            <header id="header" class="navbar-fixed-top">
+                <div class="logo">
+                    <a href="https://dogsincare520.github.io/donate/">
+                        <img src="https://i.postimg.cc/8CPPmtQV/banner2.png" data-mobile="https://i.postimg.cc/s2m5QhFw/banner-mobile.png" data-desktop="https://i.postimg.cc/8CPPmtQV/banner2.png" width="100%" alt="logo" />
+                    </a>
+                </div>
+
+                <div class="nav navbar-light bg-orange" id="myNavbar">
+                    <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">-->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse navbar-collapse-center" id="Navbar">
+                        <ul class="nav navbar-nav navbar-center">
+                            <li><a class="nav-link" page-scroll data-toggle="tab" href="#home">幫助狗園</a></li>
+                            <li><a class="nav-link page-scroll" data-toggle="tab" href="#about_us">關於狗園</a></li>
+                            <li><a class="nav-link page-scroll" data-toggle="tab" href="#rescue_story">救援故事</a></li>
+                            <!-- <li><a class="nav-link  page-scroll" href="#menu1">109年4月愛心贊助明細</a></li>  -->
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">愛心贊助明細 <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a data-toggle="tab" href="#a11004">
+                                            <div class="month"><span class="new">110年4月</span></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="tab" href="#a11003">
+                                            <div class="month"><span class="new">110年3月</span></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="tab" href="#a11002"><div class="month">110年2月</div></a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="tab" href="#a11001"><div class="month">110年1月</div></a>
+                                    </li>
+
+                                    <li>
+                                        <a data-toggle="tab" href="#a3000"><div class="month">三倍劵贊助</div></a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="tab" href="#a10912"><div class="month">109年12月</div></a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="tab" href="#a10911"><div class="month">109年11月</div></a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="tab" href="#a10910"><div class="month">109年10月</div></a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="tab" href="#a10909"><div class="month">109年9月</div></a>
+                                    </li>
+
+                                    <li>
+                                        <a data-toggle="tab" href="#a10908"><div class="month">109年8月</div></a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="tab" href="#a10907"><div class="month">109年7月</div></a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="tab" href="#a10906"><div class="month">109年6月</div></a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="tab" href="#a10905"><div class="month">109年5月</div></a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="tab" href="#a10904"><div class="month">109年4月</div></a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="tab" href="#a10903"><div class="month">109年3月</div></a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="tab" href="#a10902"><div class="month">109年2月</div></a>
+                                    </li>
+                                    <li>
+                                        <a data-toggle="tab" href="#a10901"><div class="month">109年1月</div></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="nav-link page-scroll" data-toggle="tab" href="#news">相關報導</a></li>
+
+                            <li>
+                                <a href="https://p.ecpay.com.tw/9F5D5/"><img src="https://i.postimg.cc/fLJnJdcZ/logo300x180.png" id="img1" /></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/wamamadogs/"><img src="https://i.postimg.cc/ZKqVJ0nJ/Facebook-logo1.png" width="100px" id="img2" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <div class="top"></div>
+
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                    <div class="space"></div>
+                    <div id="myCarousel" class="carousel slide">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                            <li data-target="#myCarousel" data-slide-to="5"></li>
+                            <li data-target="#myCarousel" data-slide-to="6"></li>
+                            <li data-target="#myCarousel" data-slide-to="7"></li>
+                            <li data-target="#myCarousel" data-slide-to="8"></li>
+                            <li data-target="#myCarousel" data-slide-to="9"></li>
+                            <li data-target="#myCarousel" data-slide-to="10"></li>
+                            <li data-target="#myCarousel" data-slide-to="11"></li>
+                            <li data-target="#myCarousel" data-slide-to="12"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="https://i.postimg.cc/pX0ypwnt/1.jpg" width="40%" alt="第一張" />
+                            </div>
+                            <div class="item">
+                                <img src="https://i.postimg.cc/cJ3Jk6ks/2.jpg" width="40%" alt="第二張" />
+                            </div>
+                            <div class="item">
+                                <img src="https://i.postimg.cc/KjGvYfGz/3.jpg" width="40%" alt="第三張" />
+                            </div>
+                            <div class="item">
+                                <img src="https://i.postimg.cc/YqSCKdDD/4.jpg" width="40%" alt="第四張" />
+                            </div>
+                            <div class="item">
+                                <img src="https://i.postimg.cc/Y93MTF6w/5.jpg" width="40%" alt="第五張" />
+                            </div>
+                            <div class="item">
+                                <img src="https://i.postimg.cc/SKn5MDqR/6.jpg" width="40%" alt="第六張" />
+                            </div>
+                            <div class="item">
+                                <img src="https://i.postimg.cc/s2bL97Dc/7.jpg" width="40%" alt="第七張" />
+                            </div>
+                            <div class="item">
+                                <img src="https://i.postimg.cc/4dtS8yYT/8.jpg" width="40%" alt="第八張" />
+                            </div>
+                            <div class="item">
+                                <img src="https://i.postimg.cc/PJjF0HDv/9.jpg" width="40%" alt="第九張" />
+                            </div>
+                            <div class="item">
+                                <img src="https://i.postimg.cc/WpGygDRG/10.jpg" width="40%" alt="第十張" />
+                            </div>
+                            <div class="item">
+                                <img src="https://i.postimg.cc/y8dpMvDj/11.jpg" width="40%" alt="第十一張" />
+                            </div>
+                            <div class="item">
+                                <img src="https://i.postimg.cc/6pmbtnRX/12.jpg" width="40%" alt="第十二張" />
+                            </div>
+                            <div class="item">
+                                <img src="https://i.postimg.cc/xdNxC8yb/13.jpg" width="40%" alt="第十三張" />
+                            </div>
+                        </div>
+
+                        <a href="#myCarousel" data-slide="prev" class="carousel-control left">
+                            <!--<span class="glyphicon glyphicon-chevron-left"> </span>-->
+                        </a>
+                        <a href="#myCarousel" data-slide="next" class="carousel-control right">
+                            <!--<span class="glyphicon glyphicon-chevron-right"> </span>-->
+                        </a>
+                    </div>
+                    <div class="account">
+                        <p class="account_title">
+                            銀行匯款&郵政劃撥贊助<br />
+                            Dogs In Care 嘉義王媽媽狗園專戶<br />
+                        </p>
+
+                        <p></p>
+                        <p class="bank_name">第一銀行 嘉義分行 (第一銀行代碼007)<br /></p>
+                        <p class="account_number">帳號: 50168-205-945<br /></p>
+                        <p class="account_name">戶名: 鄭玉筠<br /></p>
+                        _____________________<br />
+                        <br />
+                        <p class="bank_name">嘉義彌陀郵局(中華郵政代碼700)<br /></p>
+                        <p class="account_number">帳號: 0051181-0316951<br /></p>
+                        <p class="account_name">戶名: 鄭玉筠<br /></p>
+                        _____________________<br />
+                        <br />
+                        <p class="bank_name">郵政劃撥帳號：<span class="account_number1">31636619</span></p>
+                        <p class="account_name">戶名: 鄭玉筠<br /></p>
+
+                        <p class="account_notice">⬇匯完款請填寫表單⬇</p>
+
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzIlQFelIwoHlTouLSHA7jXlZa-gX3VK_CyvDasVoi6sIL-w/viewform?embedded=true" width="100%" height="1352" frameborder="0" marginheight="0" marginwidth="0">
+                            載入中…
+                        </iframe>
+                    </div>
+                </div>
+
+                <div id="news" class="tab-pane fade">
+                    <iframe src="https://dogsincare520.github.io/donate/news" width="100%" height="650" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                </div>
+
+                <div id="about_us" class="tab-pane fade">
+                    <iframe src="https://dogsincare520.github.io/donate/about_us" width="100%" height="650" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                </div>
+
+                <div id="rescue_story" class="tab-pane fade">
+                    <iframe src="https://dogsincare520.github.io/donate/rescue_story" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                </div>
+
+                <div id="a11004" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">110年04月贊助明細</p>
+                        <p class="donate_date">公告日期:110/05/21</p>
+                        <iframe src="https://dogsincare520.github.io/donate/11004" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
+
+                <div id="a11003" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">110年03月贊助明細</p>
+                        <p class="donate_date">公告日期:110/05/21</p>
+                        <iframe src="https://dogsincare520.github.io/donate/11003" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
+
+                <div id="a11002" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">110年02月贊助明細</p>
+                        <p class="donate_date">公告日期:110/03/07</p>
+                        <iframe src="https://dogsincare520.github.io/donate/11002" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
+
+                <div id="a11001" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">110年01月贊助明細</p>
+                        <p class="donate_date">公告日期:110/03/07</p>
+                        <iframe src="https://dogsincare520.github.io/donate/11001" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
+
+                <div id="a3000" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">三倍劵贊助明細</p>
+                        <p class="donate_date">更新日期:109/09/21</p>
+                        <iframe src="https://dogsincare520.github.io/donate/3000" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
+
+                <div id="a10901" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">109年01月贊助明細</p>
+                        <p class="donate_date">公告日期:109/05/05</p>
+                        <iframe src="https://dogsincare520.github.io/donate/10901" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
+
+                <div id="a10902" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">109年02月贊助明細</p>
+                        <p class="donate_date">公告日期:109/05/06</p>
+                        <iframe src="https://dogsincare520.github.io/donate/10902" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
+
+                <div id="a10903" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">109年03月贊助明細</p>
+                        <p class="donate_date">公告日期:109/06/29</p>
+                        <iframe src="https://dogsincare520.github.io/donate/10903" width="100%" height="650" marginwidth="0" #marginheight="0" scrolling="yes" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
+
+                <div id="a10904" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">109年04月贊助明細</p>
+                        <p class="donate_date">公告日期:109/07/26</p>
+                        <iframe src="https://dogsincare520.github.io/donate/10904" width="100%" height="650" marginwidth="0" #marginheight="0" scrolling="yes" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
+
+                <div id="a10905" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">109年05月贊助明細</p>
+                        <p class="donate_date">公告日期:109/10/12</p>
+                        <iframe src="https://dogsincare520.github.io/donate/10905" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
+
+                <div id="a10906" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">109年06月贊助明細</p>
+                        <p class="donate_date">公告日期:109/10/12</p>
+                        <iframe src="https://dogsincare520.github.io/donate/10906" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
+
+                <div id="a10907" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">109年07月贊助明細</p>
+                        <p class="donate_date">公告日期:109/10/12</p>
+                        <iframe src="https://dogsincare520.github.io/donate/10907" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
+
+                <div id="a10908" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">109年08月贊助明細</p>
+                        <p class="donate_date">公告日期:109/10/12</p>
+                        <iframe src="https://dogsincare520.github.io/donate/10908" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
+
+                <div id="a10909" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">109年09月贊助明細</p>
+                        <p class="donate_date">公告日期:110/04/22</p>
+                        <iframe src="https://dogsincare520.github.io/donate/10909" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
+
+                <div id="a10910" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">109年10月贊助明細</p>
+                        <p class="donate_date">公告日期:110/04/22</p>
+                        <iframe src="https://dogsincare520.github.io/donate/10910" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
+
+                <div id="a10911" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">109年11月贊助明細</p>
+                        <p class="donate_date">公告日期:110/04/22</p>
+                        <iframe src="https://dogsincare520.github.io/donate/10911" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
+
+                <div id="a10912" class="tab-pane fade month_setting">
+                    <div class="donate_month">
+                        <br />
+                        <p class="donate_title">109年12月贊助明細</p>
+                        <p class="donate_date">公告日期:110/04/22</p>
+                        <iframe src="https://dogsincare520.github.io/donate/10912" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
+                    </div>
+                </div>
             </div>
-    </div> 
-    </header>
-<div class="top">
-  </div>
 
-<div class="tab-content">  
-   
-<div id="home"  class="tab-pane fade in active">
-  <div class="space">
-    </div>
-<div id="myCarousel" class="carousel slide">
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"> </li>
-			<li data-target="#myCarousel" data-slide-to="1"> </li>
-			<li data-target="#myCarousel" data-slide-to="2"> </li>
-                        <li data-target="#myCarousel" data-slide-to="3"> </li>
-                        <li data-target="#myCarousel" data-slide-to="4"> </li>
- 			<li data-target="#myCarousel" data-slide-to="5"> </li>
-       			<li data-target="#myCarousel" data-slide-to="6"> </li>
-       			<li data-target="#myCarousel" data-slide-to="7"> </li>
-       			<li data-target="#myCarousel" data-slide-to="8"> </li>
-       			<li data-target="#myCarousel" data-slide-to="9"> </li>
-      			<li data-target="#myCarousel" data-slide-to="10"> </li>
-      			<li data-target="#myCarousel" data-slide-to="11"> </li>
-      			<li data-target="#myCarousel" data-slide-to="12"> </li>
-			
-		</ol> 
-		<div class="carousel-inner">
-			<div class="item active">
-				<img src="https://i.postimg.cc/pX0ypwnt/1.jpg" width="40%" alt="第一張" />
-			</div>
-			<div class="item" >
-				<img src="https://i.postimg.cc/cJ3Jk6ks/2.jpg" width="40%" alt="第二張" />
-			</div>
-			<div class="item">
-				<img src="https://i.postimg.cc/KjGvYfGz/3.jpg" width="40%" alt="第三張" />
-			</div>
-      			<div class="item">
-				<img src="https://i.postimg.cc/YqSCKdDD/4.jpg" width="40%" alt="第四張" />
-			</div>
-      			<div class="item">
-				<img src="https://i.postimg.cc/Y93MTF6w/5.jpg" width="40%" alt="第五張" />
-			</div>
-			<div class="item">
-				<img src="https://i.postimg.cc/SKn5MDqR/6.jpg" width="40%" alt="第六張" />
-			</div>
-      			<div class="item">
-				<img src="https://i.postimg.cc/s2bL97Dc/7.jpg" width="40%" alt="第七張" />
-			</div>
-      			<div class="item">
-				<img src="https://i.postimg.cc/4dtS8yYT/8.jpg" width="40%" alt="第八張" />
-			</div>
-      			<div class="item">
-				<img src="https://i.postimg.cc/PJjF0HDv/9.jpg" width="40%" alt="第九張" />
-			</div>
-      			<div class="item">
-				<img src="https://i.postimg.cc/WpGygDRG/10.jpg" width="40%" alt="第十張" />
-			</div>
-      			<div class="item">
-				<img src="https://i.postimg.cc/y8dpMvDj/11.jpg" width="40%" alt="第十一張" />
-			</div>
-      			<div class="item">
-				<img src="https://i.postimg.cc/6pmbtnRX/12.jpg" width="40%" alt="第十二張" />
-			</div>
-      			<div class="item">
-				<img src="https://i.postimg.cc/xdNxC8yb/13.jpg" width="40%" alt="第十三張" />
-			</div>
-		
-		</div>
-	
-		<a href="#myCarousel" data-slide="prev" class="carousel-control left">
-			<!--<span class="glyphicon glyphicon-chevron-left"> </span>-->
-		</a>
-		<a href="#myCarousel" data-slide="next" class="carousel-control right">
-			<!--<span class="glyphicon glyphicon-chevron-right"> </span>-->
-		</a>
-	</div>
-  <div class="account">
-   <p class="account_title">銀行匯款&郵政劃撥贊助<br>
-   Dogs In Care 嘉義王媽媽狗園專戶<br></p>
-
-<p>
-<p class="bank_name">第一銀行 嘉義分行 (第一銀行代碼007)<br></p>
-<p class="account_number">帳號: 50168-205-945<br></p>
-<p class="account_name">戶名: 鄭玉筠<br></p>
-  _____________________<br>
-<br>
-<p class="bank_name">嘉義彌陀郵局(中華郵政代碼700)<br></p>
-<p class="account_number">帳號: 0051181-0316951<br></p>
-<p class="account_name">戶名: 鄭玉筠<br></p> 
-_____________________<br>
-<br>
-<p class="bank_name">郵政劃撥帳號：<span class="account_number1">31636619</span></p>
-<p class="account_name">戶名: 鄭玉筠<br></p>
-    
- <p class="account_notice">⬇匯完款請填寫表單⬇</p>   
-</p>
- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzIlQFelIwoHlTouLSHA7jXlZa-gX3VK_CyvDasVoi6sIL-w/viewform?embedded=true" width="100%" height="1352" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
-    </div>
-  </div>
-  
-<div id="news" class="tab-pane fade ">
-  <iframe src="https://dogsincare520.github.io/donate/news" width="100%" height="650" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-</div>  
-
-<div id="about_us" class="tab-pane fade ">
-  <iframe src="https://dogsincare520.github.io/donate/about_us" width="100%" height="650" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-</div>
-
-<div id="rescue_story" class="tab-pane fade ">
-  <iframe src="https://dogsincare520.github.io/donate/rescue_story" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-</div>   
-
-
-
-<div id="a11004" class="tab-pane fade month_setting">
-  <div class="donate_month">
-    <br>
-    <p class="donate_title">110年04月贊助明細</p>
-    <p class="donate_date">公告日期:110/05/21</p>
-    <iframe src="https://dogsincare520.github.io/donate/11004" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-  </div>  
-</div>  
-
-<div id="a11003" class="tab-pane fade month_setting">
-  <div class="donate_month">
-    <br>
-    <p class="donate_title">110年03月贊助明細</p>
-    <p class="donate_date">公告日期:110/05/21</p>
-    <iframe src="https://dogsincare520.github.io/donate/11003" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-  </div>  
-</div>  
-
-
-<div id="a11002" class="tab-pane fade month_setting">
-  <div class="donate_month">
-    <br>
-    <p class="donate_title">110年02月贊助明細</p>
-    <p class="donate_date">公告日期:110/03/07</p>
-    <iframe src="https://dogsincare520.github.io/donate/11002" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-  </div>  
-</div>  
-
-<div id="a11001" class="tab-pane fade month_setting">
-  <div class="donate_month">
-    <br>
-    <p class="donate_title">110年01月贊助明細</p>
-    <p class="donate_date">公告日期:110/03/07</p>
-    <iframe src="https://dogsincare520.github.io/donate/11001" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-  </div>  
-</div>  
-
-<div id="a3000" class="tab-pane fade month_setting">
-  <div class="donate_month">
-    <br>
-    <p class="donate_title">三倍劵贊助明細</p>
-    <p class="donate_date">更新日期:109/09/21</p>
-    <iframe src="https://dogsincare520.github.io/donate/3000" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-  </div>  
-</div>  
-
-<div id="a10901" class="tab-pane fade month_setting">
-  <div class="donate_month">
-    <br>
-    <p class="donate_title">109年01月贊助明細</p>
-    <p class="donate_date">公告日期:109/05/05</p>
-    <iframe src="https://dogsincare520.github.io/donate/10901" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-  </div>  
-</div>  
-
-<div id="a10902" class="tab-pane fade month_setting">
-  <div class="donate_month">
-    <br>
-    <p class="donate_title">109年02月贊助明細</p>
-    <p class="donate_date">公告日期:109/05/06</p>
-    <iframe src="https://dogsincare520.github.io/donate/10902" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-  </div>  
-</div>
-
-<div id="a10903" class="tab-pane fade month_setting">
-  <div class="donate_month">
-    <br>
-    <p class="donate_title">109年03月贊助明細</p>
-    <p class="donate_date">公告日期:109/06/29</p>
-    <iframe src="https://dogsincare520.github.io/donate/10903" width="100%" height="650" marginwidth="0" #marginheight="0" scrolling="yes" frameborder="0" align="center"></iframe>
-  </div>
-</div>
-   
-<div id="a10904" class="tab-pane fade month_setting">
-  <div class="donate_month"> 
-    <br>
-    <p class="donate_title">109年04月贊助明細</p>
-    <p class="donate_date">公告日期:109/07/26</p>
-     <iframe src="https://dogsincare520.github.io/donate/10904" width="100%" height="650" marginwidth="0" #marginheight="0" scrolling="yes" frameborder="0" align="center"></iframe>
-   </div>
-</div>
-
-<div id="a10905" class="tab-pane fade month_setting">
-  <div class="donate_month">
-    <br>
-    <p class="donate_title">109年05月贊助明細</p>
-    <p class="donate_date">公告日期:109/10/12</p>
-    <iframe src="https://dogsincare520.github.io/donate/10905" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-  </div>  
-</div>  
-
-<div id="a10906" class="tab-pane fade month_setting">
-  <div class="donate_month">
-    <br>
-    <p class="donate_title">109年06月贊助明細</p>
-    <p class="donate_date">公告日期:109/10/12</p>
-    <iframe src="https://dogsincare520.github.io/donate/10906" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-  </div>  
-</div>
-
-<div id="a10907" class="tab-pane fade month_setting">
-  <div class="donate_month">
-    <br>
-    <p class="donate_title">109年07月贊助明細</p>
-    <p class="donate_date">公告日期:109/10/12</p>
-    <iframe src="https://dogsincare520.github.io/donate/10907" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-  </div>  
-</div>
-
-<div id="a10908" class="tab-pane fade month_setting">
-  <div class="donate_month">
-    <br>
-    <p class="donate_title">109年08月贊助明細</p>
-    <p class="donate_date">公告日期:109/10/12</p>
-    <iframe src="https://dogsincare520.github.io/donate/10908" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-  </div>  
-</div> 
-
-<div id="a10909" class="tab-pane fade month_setting">
-  <div class="donate_month">
-    <br>
-    <p class="donate_title">109年09月贊助明細</p>
-    <p class="donate_date">公告日期:110/04/22</p>
-    <iframe src="https://dogsincare520.github.io/donate/10909" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-  </div>  
-</div> 
-
-<div id="a10910" class="tab-pane fade month_setting">
-  <div class="donate_month">
-    <br>
-    <p class="donate_title">109年10月贊助明細</p>
-    <p class="donate_date">公告日期:110/04/22</p>
-    <iframe src="https://dogsincare520.github.io/donate/10910" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-  </div>  
-</div> 
-
-<div id="a10911" class="tab-pane fade month_setting">
-  <div class="donate_month">
-    <br>
-    <p class="donate_title">109年11月贊助明細</p>
-    <p class="donate_date">公告日期:110/04/22</p>
-    <iframe src="https://dogsincare520.github.io/donate/10911" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-  </div>  
-</div> 
-
-<div id="a10912" class="tab-pane fade month_setting">
-  <div class="donate_month">
-    <br>
-    <p class="donate_title">109年12月贊助明細</p>
-    <p class="donate_date">公告日期:110/04/22</p>
-    <iframe src="https://dogsincare520.github.io/donate/10912" width="100%" height="600" marginwidth="0" #marginheight="0" scrolling="auto" frameborder="0" align="center"></iframe>
-  </div>  
-</div>  
-   
-
-</div>
-  
-
- 
-
-
-
-<!-- partial -->
- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1./jquery.min.js'></script>
-<script src='https://framp.me/portfolio/js/jquerypp.custom.js'></script>
-<script src='https://framp.me/portfolio/js/jquery.bookblock.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
-<script>
-function getid()
-{
-    var ih;
-    ih=location.href.split("#")[1];
-    $('#'+ih).tab("show");
-}
-</script>
-
-</body>
+            <!-- partial -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1./jquery.min.js"></script>
+            <script src="https://framp.me/portfolio/js/jquerypp.custom.js"></script>
+            <script src="https://framp.me/portfolio/js/jquery.bookblock.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <script src="./script.js"></script>
+            <script>
+                function getid() {
+                    var ih;
+                    ih = location.href.split("#")[1];
+                    $("#" + ih).tab("show");
+                }
+            </script>
+        </body>  
 </html>
