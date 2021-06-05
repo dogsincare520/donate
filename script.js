@@ -2,7 +2,7 @@ setTimeout(function() {
   $('body')
     .removeClass('loading')
     .addClass('loaded');
-}, 5000);
+}, 3000);
 
 
 $('body').scrollspy({ target: '#myNavbar'})
