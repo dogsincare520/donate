@@ -2,7 +2,7 @@ setTimeout(function() {
   $('body')
     .removeClass('loading')
     .addClass('loaded');
-}, 3500);
+}, 3000);
 
 
 $('body').scrollspy({ target: '#myNavbar'})
@@ -26,7 +26,7 @@ $('.navbar-nav li a').on('click', function(){
 });
 
 $("#myCarousel").carousel({
-			interval :10000,
+			interval :6000,
 		});
 
 $(function(){
