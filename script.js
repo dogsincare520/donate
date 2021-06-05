@@ -26,7 +26,7 @@ $('.navbar-nav li a').on('click', function(){
 });
 
 $("#myCarousel").carousel({
-			interval :5000,
+			interval :8000,
 		});
 
 $(function(){
